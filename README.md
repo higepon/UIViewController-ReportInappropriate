@@ -3,6 +3,7 @@ You can easily implement "Report Inappropriate" feature for your iOS App!
 
 ### How to install
 - Make sure you have MessageUI.framework added in Build Phase.
+![MessageUI.framework](https://raw.githubusercontent.com/higepon/UIViewController-ReportInappropriate/master/images/MessageUI.framework.png)
 - Copy UIViewController+ReportInappropriate.h and .m to your project.
 
 ### How to use
