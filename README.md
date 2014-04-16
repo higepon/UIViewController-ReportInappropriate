@@ -10,13 +10,13 @@ image here
 ## How to use
 1. Import the header file in your UIViewController
 
-```
+```objc
 #import "UIViewController+ReportInappropriate.h"
 ```
 
 2. Call makeReportWithEmailAddress
 
-```
+```objc
 [self makeReportWithEmailAddress:@"higepon@example.com" emailBody:@"Found inappropriate content!"];
 ```
 
