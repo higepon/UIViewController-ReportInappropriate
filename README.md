@@ -15,13 +15,15 @@ You can easily implement "Report Inappropriate" feature for your iOS App in Obje
 ```
 
 (2) Call makeReportWithEmailAddress
+#### Swift
+```swift
+self.makeReport(withEmail: "higepon@example.com", messageBody: "Found inappropriate content!")
+```
+#### Objective-C
 ```objc
 [self makeReportWithEmailAddress:@"higepon@example.com" emailBody:@"Found inappropriate content!"];
 ```
 
-```swift
-self.makeReport(withEmail: "higepon@example.com", messageBody: "Found inappropriate content!")
-```
 (3) Done!
 
 ![example](https://raw.githubusercontent.com/higepon/UIViewController-ReportInappropriate/master/images/report_example.png)
